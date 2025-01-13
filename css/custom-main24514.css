@@ -1,0 +1,145 @@
+.container { max-width: 1440px; padding: 0 2%; }
+header .container.newv .w__headermenu { padding: 5px 0; }
+header .container.newv .wrap__nav { padding: 5px 0; }
+footer .wrap__infofooter .container { padding: 45px 2%; }
+
+.social {
+    display: inline-flex !important;
+    float: right !important;
+}
+header .wrap__topbar .social ul {display: inline-flex;}
+.wpml-ls-legacy-list-horizontal .wpml-ls-flag {width: 24px; height: 16px !important;}
+.wpml-ls-legacy-list-horizontal a {padding: 10px 0}
+.rooms-home .box {
+	width:25%;
+}
+.rooms-home .photo {
+    min-height:400px;
+    height: 500px!important;
+}
+
+.rooms-home .detail h4{
+    font-size: 2.83rem;
+}
+
+.sec__facilities-home.new .box{
+    width:33.33%;
+}
+
+.sec__facilities-home.new .box:nth-child(1),
+.sec__facilities-home.new .box:nth-child(2) {
+    width:50%;
+
+}
+
+/*Facilities Home Mobile*/
+.sec__facilities-home .facilities-home-mobile.wrap__box{ display: none; }
+.sec__facilities-home .wrap__box .textdetail{ color: #fff; }
+.hide-on-mobile{ display: block; }
+.show-on-mobile{ display: none; }
+/*Facilities Home Mobile*/
+
+/* .sec__facilities-home.new .box:nth-child(1) .photo,
+.sec__facilities-home.new .box:nth-child(2) .photo{
+	height: 30vw;
+} */
+
+.sec__facilities-home.fix_size .photo,
+.sec__offer-home.fix_size .photo {min-height: 300px;height: 300px;}
+.sec__mainslide .slidetext{ position: absolute; }
+
+
+#maquee_popup {
+    display: none;
+    position: fixed;
+    bottom: 50px;
+    left: 10px;
+    z-index: 9999;
+}
+
+#maquee_popup a:hover, #maquee_popup a:active{
+    transform: none;
+    text-decoration: none;
+    bottom: 0;
+}
+#maquee_popup a:before{display:none;}
+#maquee_close {
+    position: absolute;
+    right: -3px;
+    top: -3px;
+    cursor: pointer;
+    z-index: 99999;
+}
+
+
+@media screen and (max-width: 1024px) {
+	.rooms-home .box {
+		width:50%;
+		margin-bottom:20px;
+/* 		height: unset!important; */
+	}
+	.sec__facilities-home.new .box:nth-child(1) .photo,
+	.sec__facilities-home.new .box:nth-child(2) .photo{
+/* 		height: 45vw; */
+	}
+}
+
+
+@media screen and (max-width: 768px) {
+	.rooms-home .box {
+		width:100%;
+	}
+
+    
+
+	.sec__facilities-home.new .box {
+	    width:100%!important;
+	}
+
+    /*Facilities Home Mobile*/
+    .show-on-mobile{ display: block; }
+    .hide-on-mobile{ display: none; }
+    .user-login .hide-on-mobile{ display: none; }
+    /*.sec__facilities-home .facilities-home-desktop.wrap__box { display: none; }*/
+    .sec__facilities-home .facilities-home-mobile.wrap__box { display: block; position: relative; margin-bottom: 40px; }
+    .sec__facilities-home.new .facilities-home-mobile .box-item .wrap{ position: relative; }
+    .sec__facilities-home.new .facilities-home-mobile .box-item .photo-item{ position: relative; min-height: 70vw; }
+    .sec__facilities-home.new .facilities-home-mobile .box-item .detail{ 
+        position: absolute; 
+        width: 50%; 
+        height: 100%; 
+        left: 10px; 
+        top: 0; 
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 10px;
+        background-color: rgba(0,0,0,0.5);
+        z-index: 2; 
+    }
+    .sec__facilities-home.new .facilities-home-mobile .box-item .detail h4{ font-size: 2.5rem; color: #fff; margin-bottom: 25px; text-align: left; }
+    .sec__facilities-home.new .facilities-home-mobile .box-item .detail .textdetail{ margin-bottom: 20px; text-align: left; }
+    .sec__facilities-home.new .facilities-home-mobile .box-item .detail .textdetail ul{ padding: 0 0 0 20px; margin: 0; }
+    .sec__facilities-home.new .facilities-home-mobile .box-item .detail .textdetail ul li{ list-style-type: disc; font-size: 16px; line-height: normal; }
+    .sec__facilities-home .facilities-home-mobile.wrap__box .slick-arrow{ top: auto; bottom: 30px; width: 40px; height: 40px; }
+    .sec__facilities-home .facilities-home-mobile.wrap__box .slick-prev {
+        right: 55px;
+        left: auto;
+    }
+    .sec__facilities-home .facilities-home-mobile.wrap__box .slick-next {
+        right: 10px;
+        left: auto;
+    }
+    /*Facilities Home Mobile*/
+
+
+
+}
+
+
+@media screen and (max-width: 560px) {
+    .sec__facilities-home.new .facilities-home-mobile .box-item .detail{ width: 70%; }
+    .sec__facilities-home.new .facilities-home-mobile .box-item .detail h4{ font-size: 1.8rem; }
+    .sec__facilities-home.new .facilities-home-mobile .box-item .detail .textdetail ul li{ font-size: 13px; line-height: 15px; }
+}

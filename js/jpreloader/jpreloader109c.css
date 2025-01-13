@@ -1,0 +1,131 @@
+#jpreOverlay {
+	background-color: rgba(255, 255, 255, 0.6);
+	width: 100%;
+	height: 100%;
+	z-index: 9999 !important;
+	position: fixed;
+	top: 0;
+	left: 0 ;
+	min-height: 100vh;
+}
+#jpreOverlay.setremove{ width: 0 !important; overflow: hidden;
+
+		-webkit-transition: width 0.3s ease-out 0.6s;
+		transition: width 0.3s ease-out 0.6s;}
+#jpreOverlay:before{
+position: absolute;
+content: "";
+height: 100%;
+width: 100%;
+left: 0;
+top: 0;
+background-color: #fff;
+z-index: 0;
+-webkit-transition: all 0.3s ease-out 0.3s;
+transition: all 0.3s ease-out 0.3s;
+}
+#jpreOverlay.setremove:before{  width: 0; }
+
+#jpreSlide{
+	font-size:22px;
+	font-weight:bold;
+	color:#ccc;
+	text-align:center;
+	width:50%;
+	height:30%;
+}
+#jpreLoader{
+	width:100%;
+	height: 100%;
+	top: 0px !important;
+}
+
+#jpreBar {
+	background: #ffaa00;
+	height: 5px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+#jprePercentage {
+	color: #333;
+	font-size: 16px;
+	font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+	padding: 5px 10px;
+	z-index: 9999;
+
+	width: 160px;
+	left: calc(50% - 80px);
+	text-align: center;
+	border: 1px solid #333;
+	display: block;
+	margin: 20px auto 0;
+	height: auto ;
+	position: absolute;
+	top: 50vh;
+}
+
+
+#wrap_loadingpage{
+		height: 200px;
+		top: auto !important;
+		width: 200px;
+		padding: 0;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-align: end;
+		-ms-flex-align: end;
+		align-items: flex-end;
+		z-index: 100;
+		left: calc(50% - 100px) !important;
+		bottom: 50%;
+		}
+
+		#loadingpage{
+				position: absolute;
+				bottom: 0;
+				left: calc(50% - 50px);
+				width: 100px;
+				margin: 0 auto;
+				height: 100%;
+				-webkit-transition: all 0.6s;
+				transition: all 0.6s;
+				display: none;
+				}
+		#loadingpage .aminationloading{
+				top: 50%; -webkit-transition: all 0.6s; transition: all 0.6s;
+				}
+
+#jpreOverlay > #wrap_loadingpage > #loadingpage{
+		position: absolute;
+		bottom: 0;
+		left: calc(50% - 50px);
+		width: 100px;
+		margin: 0 auto;
+		height: 100px;
+		display: block;
+		}
+
+.loading-logo{ text-align: center; }
+.hide{ -webkit-transition: all 1s ease 0.3s; transition: all 1s ease 0.3s ; }
+#loadingpage.hide{ bottom: 20%; opacity: 0; 		}
+#jprePercentage.hide{ opacity: 0; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		/*end*/

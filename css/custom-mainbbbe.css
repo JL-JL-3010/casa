@@ -1,0 +1,225 @@
+@import url('../fonts/SukhumvitSet-Light/styles.css');
+
+.mainmenu .sub-menu {
+    display:none;
+}
+
+.sec__offerlist ul {
+    margin-bottom: 20px;
+}
+
+.wrap__facilities ul:nth-child(2) {
+    float:left;
+}
+.wrap__facilities ul:nth-child(3) {
+    float:right;
+}
+.wrap__facilities ul {
+    display: block;
+    width: 50%;
+}
+
+.wrap__facilities li {
+    width: 100%;
+}
+
+.roi-search-engine__form {
+    margin-left: -10px!important;
+}
+
+.wrap__newsletter #emailnewletter-error {
+   position:absolute;
+   bottom: -23px;
+   font-size: 11px;
+   color: #F44336;
+}
+
+.wrap__box.restaurants div.box{
+  width: calc(33.33% - 0px)!important;
+}
+
+
+.wrap h3.title-gallery{ padding-left: 0; }
+.gallery-page .intro-home{ margin-top: 60px; }
+.fancybox-controls .fancybox-button{ width: 50px; height: 50px;  }
+.fancybox-controls .fancybox-button--left{ border-radius: 0px 5px 5px 0px; left: 0; }
+.fancybox-controls .fancybox-button--right{ border-radius: 5px 0px 0px 5px; right: 0; }
+.fancybox-controls .fancybox-infobar__body{ line-height: 1; width: 70px; height: 50px; display:-webkit-box; display:flex; -webkit-box-align:center; align-items:center; -webkit-box-pack: center; justify-content: center;  }
+.fancybox-controls .fancybox-button--play:before{ top:calc(50% - 7px); left:calc(50% - 3px); }
+.fancybox-controls .fancybox-button--fullscreen:before{ top: calc(50% - 6px); left:calc(50% - 7px); }
+.fancybox-controls .fancybox-button--thumbs:before{ top:calc(50% - 2px); left:50%; }
+.fancybox-controls .fancybox-button--left:after, .fancybox-controls .fancybox-button--right:after{ top:21px; }
+.fancybox-container .fancybox-thumbs>ul>li:before{ border:3px solid #000; }
+.fancybox-container--thumbs .fancybox-buttons{ right:220px; }
+.scrolldown{ width:100px;  bottom: 140px;  }
+.scrolldown a{ color:#fff; }
+.scrolldown img{ width:50px; }
+.scrolldown span{ display: block; }
+.sd__mainbanner .slick-dots{ right: 20px;left: auto;bottom: 20px;width: 20px;top: 20px;-webkit-box-align: center;align-items: center;-webkit-box-pack: center;justify-content: center;-webkit-box-orient: vertical;-webkit-box-direction: normal;flex-flow: column;  }
+.sd__mainbanner .slick-dots li{ margin-top:10px; }
+.sd__mainbanner .slick-dots li button { width: 8px;height: 8px; background-color: rgba(255, 255, 255, 0.4); }
+.sd__mainbanner .slick-dots li.slick-active button { width: 12px;height: 12px;background-color: #00b4b0;}
+
+
+
+
+
+/*  */
+
+
+
+.wrap-room-gallery {
+    display: -webkit-box;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.image-box {
+    width: 33.333%;
+    padding: 10px;
+}
+
+.image-box img {
+    width: 100%;
+}
+
+img.main-image {
+    margin-bottom: 50px;
+}
+.sd__roomtype .photo{ height: inherit; }
+.sd__roomtype .box .wrap{ height: 100%; }
+.sd__photolist ul.slick-dots {  bottom: 50px; }
+.wrap__textbanner{     position: absolute;
+    top: 10%;
+    max-width: 1200px;
+    left: calc(50% - 600px);
+    color: #fff;
+    z-index: 999;
+    text-shadow: 2px 1px 5px rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 179, 176, 0.7);
+    padding: 8px 20px 8px 20px;  }
+.wrap__textbanner span{ display:block; font-family: "CenturyGothic", sans-serif; font-size: 3rem; line-height: 1.2; font-weight: bold;  }
+.wrap__textbanner a{ color: #fff; font-size: 1.4rem; }
+.wrap__textbanner .text-title{ font-size: 3rem; }
+.wrap__video{ width: 100%; height: calc(100vh - 100px); overflow: hidden; }
+#video-container{ position: relative; height: 100%; }
+.fullscreen-bg__video { position: absolute; top: 50%; left: 50%; width: auto; height: auto; min-width: 100%; min-height: 100%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
+#video-controls { position: absolute; bottom: 40px; left: 40px; z-index: 999 !important; width: 30px; height: 30px; color: #fff; /* cursor: pointer; */ max-width: 1440px; width: 100%; text-align: right; width: 200px; display: -webkit-box; display: flex; flex-flow: wrap; -webkit-box-pack: start; justify-content: flex-start; /* display: none; */ }
+#video-controls .play { width: 30px; height: 30px; margin-right: 20px; border: 0; padding: 0; cursor: pointer; background: transparent url("../images/icon--play.svg") no-repeat center center; background-size: 33px auto; -webkit-transition: all 0s ease 0s; transition: all 0s ease 0s; display: none; }
+#video-controls .play.pause { background: transparent url("../images/icon--pause.svg") no-repeat center center; background-size: 33px auto; }
+#video-controls .sound-on { position: relative; width: 30px; height: 30px; margin: 0; padding: 0; border: 0; cursor: pointer; font-family: 'icomoon' !important; color: #fff; background: none; font-size: 2.6rem; text-align: center; display: block; background: url(../images/icon--sound.svg) no-repeat center center; /* display:none; */ }
+#video-controls .sound-on.sound-off:after { content: ''; position: absolute; display: block; height: 1px; width: 30px; top: 1px; right: 0; background: #fff; border-radius: 10px; transform: rotate(-45deg); -webkit-transform: rotate(-45deg); -moz-transform: rotate(-45deg); -o-transform: rotate(-45deg); -ms-transform: rotate(-45deg); margin: 13px auto; transition: width .8s ease 0; -webkit-transition: width .8s ease 0; -moz-transition: width .8s ease 0; -o-transition: width .8s ease 0; -ms-transition: width .8s ease 0; }
+.sec__mainslide .container_full{ overflow: hidden; }
+.wrap__video:before{ position: absolute; content: ""; height: 40px; width: 40px; left: calc(50% - 10px); top: calc(50% - 20px);  }
+.wrap__video:after{ position: absolute; content: ""; height: 40px; width: 40px; left: calc(50% - 10px); top: calc(50% - 20px);  }
+.wrap__video.icon--play:before{ background: url(../images/icon--play.svg) no-repeat center center; background-size: 100% auto; z-index: 19;
+  -webkit-animation-name: iconzoomOut; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 0.8s; /* Safari 4.0 - 8.0 */
+  animation-name: iconzoomOut;
+  animation-duration: 0.8s; opacity: 0;
+  }
+.wrap__video.icon--pause:after{ background: url(../images/icon--pause.svg) no-repeat center center; background-size: 100% auto; z-index: 19;
+  -webkit-animation-name: iconzoomOut; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 0.8s; /* Safari 4.0 - 8.0 */
+  animation-name: iconzoomOut;
+  animation-duration: 0.8s; opacity: 0;
+  }
+
+
+/* Standard syntax */
+@-webkit-keyframes iconzoomOut {
+  from { -webkit-transform: scale(1); transform: scale(1); opacity: 1; }
+  to { -webkit-transform: scale(1.5); transform: scale(1.5); opacity: 0; }
+}
+@keyframes iconzoomOut {
+  from { -webkit-transform: scale(1); transform: scale(1); opacity: 1; }
+  to { -webkit-transform: scale(1.5); transform: scale(1.5); opacity: 0; }
+}
+
+.box__adminedit{ position: fixed; padding:10px; background-color: #fff; right: 0; top: 0px; z-index: 999999; }
+.box__adminedit img{ width: 10px; }
+.fancybox-overlay-fixed{ max-height: 100vh !important; }
+html.fancybox-margin.fancybox-lock {overflow: auto !important;}
+a.btn-booking{ background-color: none; padding: 5px 15px; color: #00b4b0; -webkit-transform: translateY(5px); transform: translateY(5px); text-transform: uppercase; font-size: 1.2rem;     font-weight: 600; position: relative;  }
+a.btn-booking:before{ position: absolute; content: ""; width: 100%; left: 0; top: 0; bottom: 0; background-color: #fff; height: auto;-webkit-transform: none;transform: none;z-index: -1;
+  -webkit-transition: all 0.6s ease; transition: all 0.6s ease; }
+a.btn-booking:hover{ -webkit-transform: translateY(5px); transform: translateY(5px); color: #fff; }
+a.btn-booking:hover:before{ top: calc(100% - 2px); -webkit-transform: none; transform: none; }
+#mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error{ font-size: 14px; margin-bottom: 0; }
+
+header .container.newv{ display: flex; flex-flow: wrap; justify-content: space-between; }
+header .container.newv .logo{ grid-column: auto; grid-row: auto;   }
+header .container.newv .sha-logo{ width: 140px;  flex-flow: wrap; display: flex; align-items: center; display: none;  }
+header .container.newv .wrap__topbar{ grid-column: auto; grid-row: auto; width: 100%;  }
+header .container.newv .wrap__nav{ grid-column: auto; grid-row: auto; width: 100%; }
+header .container.newv .w__headermenu{ /*width: calc(100% - 140px - 170px);*/ width: calc(100% - 170px);  }
+header .container.newv .wrap__nav .mainmenu > ul li{ margin: 0 9px;}
+
+header .container.newv{  }
+header .container.newv{  }
+header .container.newv{  }
+header .container.newv{  }
+
+.sec__mainpagehome{ padding-bottom: 0; }
+.sec__mainpagehome .container{ max-width: 1200px; width: calc(100% - 80px); }
+.sec__facilities-home.homesec1{ padding-top: 100px;  }
+.sec__facilities-home .box .detail h5.room_subtitle_home{ font-size: 1.4rem; color: #ffffff; }
+.sec__facilities-home .wrap__box.room-slide-home{ display: block!important; }
+.room-slide-home .slick-arrow{ bottom: -50px; }
+.room-slide-home .slick-prev {
+    right: auto;
+    left: calc(50% - 55px);
+}
+.room-slide-home .slick-next {
+    right: calc(50% - 55px);
+    left: auto;
+}
+.minipopup{ position: fixed;left: 20px;bottom: 70px;z-index: 999;background-color: #fff; box-shadow: 0 0 10px #0000004d; width: 320px; max-width: 100%;text-align: left; }
+.minipopup img{ width: 100%;  }
+.minipopup a{ display: inline-block; }
+.minipopup .btn__close{ position: absolute;top: -15px;right: -15px;width: 36px;height: 36px;cursor: pointer;z-index: 8040;
+    background-image: url(../js/fancybox2/fancybox_sprite%402x.png); background-size: 44px 152px; }
+header .wrap__nav .mainmenu li.has_submenu:hover > ul{ max-height: 380px; }
+
+/**/
+.custom-form-wrapper div.wpforms-container-full .wpforms-form .wpforms-field-label{ text-align: left; display: inline-block; }
+.custom-form-wrapper div.wpforms-container-full .wpforms-form .wpforms-field{ text-align: left; }
+.custom-form-wrapper div.wpforms-container-full .wpforms-form input.wpforms-field-medium, 
+.custom-form-wrapper div.wpforms-container-full .wpforms-form select.wpforms-field-medium, 
+.custom-form-wrapper div.wpforms-container-full .wpforms-form .wpforms-field-row.wpforms-field-medium{ max-width: inherit;}
+
+/* # Thai Lang
+================================================== */
+html[lang="th"]{ font-size: 70%; }
+
+html[lang="th"] body,
+html[lang="th"] input,
+html[lang="th"] textarea,
+html[lang="th"] select,
+html[lang="th"] button,
+html[lang="th"] p,
+html[lang="th"] h1,
+html[lang="th"] h2,
+html[lang="th"] h3,
+html[lang="th"] h4,
+html[lang="th"] h5{ font-family: "SukhumvitSet-Light", sans-serif;  }
+
+html[lang="th"] .sec__mainpagehome span.subtitle,
+html[lang="th"] .sec__offer-home .box .detail h6,
+html[lang="th"] .sec__moreroom .box .detail h6,
+html[lang="th"] .sec__mainpagehome h2.subtitle{ font-family: "SukhumvitSet-Light", sans-serif;  }
+
+html[lang="th"] p{ line-height: 1.8; }
+
+html[lang="th"] .rooms-home .detail h4,
+html[lang="th"] h6{font-size: 2.4rem;line-height: 1.2;}
+
+html[lang="th"] header .wrap__nav .mainmenu > ul a{ font-size: 1.4rem; }
+html[lang="th"] header .wrap__nav .mainmenu li.has_submenu > ul a{ font-size: 1.3rem; }
+
+body.page-id-1887 .wrap__listitem .box__item .photo .box{ height: 420px; }
+
+/*  */
